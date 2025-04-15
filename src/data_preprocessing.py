@@ -73,6 +73,11 @@ def preprocess_data(file_path, test_size=0.2, random_state=42):
         X=encode_categorical(X)
 
 
+        # Encode target (ensure this happens)
+        le = LabelEncoder()
+        y = le.fit_transform(y)
+
+
         # Split data
 
         X_train, X_test, y_train, y_test=train_test_split(X,y,test_size=test_size, random_state=random_state)
