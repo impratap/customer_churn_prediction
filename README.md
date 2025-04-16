@@ -15,6 +15,6 @@ A machine learning project to predict customer churn using a modular pipeline, d
 - Resolved label encoding issues for consistent pipeline performance.
 
 **Tech Stack**:
-- Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Joblib.
+- Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Joblib.
 - Jupyter Notebook for EDA, Git for version control.
 
